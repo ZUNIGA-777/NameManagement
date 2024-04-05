@@ -35,8 +35,8 @@ body {
 }
 
 .containerNames {
-    width: 10%;
-    height: 20%;
+    width: min(calc(75vw - 20px), 175px);
+    height: 175px;
     background-color: white;
     overflow-y: scroll;
     border-radius: 4px;
